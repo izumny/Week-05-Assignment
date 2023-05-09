@@ -1,12 +1,12 @@
-class Cat {                                             ///this app is a Menu driven app using prompts that allows you to manage cats and owners
-    constructor(name, gender, color, hairlength) {      // cats will take those details
+class Cat {                                             ///this app is a Menu driven app using prompts that allows you to manage cats and owners.
+    constructor(name, gender, color, hairlength) {      // cats will take those details.
         this.name = name;
         this.gender = gender;
         this.color = color;
         this.hairlength = hairlength;
     }
 
-    describe() {                                        /// to describe information about the cats
+    describe() {                                        /// to describe information about the cats.
         return `My name is ${this.name}, I am ${this.gender} ${this.color} ${this.hairlength} cat and your new family.`;
 
     }
